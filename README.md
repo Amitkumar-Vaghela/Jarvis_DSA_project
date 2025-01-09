@@ -8,17 +8,25 @@
 
 ## Images
 
+
 ### Date
 ![Date](https://github.com/Amitkumar-Vaghela/Jarvis_DSA_project/blob/master/image/Date.png)
+
+
 
 ### Google
 ![Google](https://github.com/Amitkumar-Vaghela/Jarvis_DSA_project/blob/master/image/Google.png)
 
+
+
 ### Time
 ![Time](https://github.com/Amitkumar-Vaghela/Jarvis_DSA_project/blob/master/image/Time.png)
 
+
+
 ### YouTube
 ![YouTube](https://github.com/Amitkumar-Vaghela/Jarvis_DSA_project/blob/master/image/Youtube.png)
+
 
 
 # 📌 Software Used
