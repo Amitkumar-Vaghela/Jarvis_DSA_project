@@ -1,69 +1,109 @@
-📌 Introduction
-Jarvis is a virtual assistant designed to make life easier through automation. By utilizing voice commands, it can perform tasks such as opening websites, searching Wikipedia, playing music, taking notes, and more. The project is implemented using Python, a versatile programming language that offers a wide range of modules and libraries to simplify development. Jarvis aims to serve as a personal assistant that enhances productivity while being user-friendly and accessible for beginners.
+# 📌Introduction
 
-📌 Software Used
-The Jarvis project leverages several Python modules and libraries to perform its tasks:
+<img src="" alt="">
 
-🔸 Pyttsx3
-Converts text to speech.
-Works offline and is compatible with Python 2 and 3.
-🔸 Datetime
-Provides current time and date.
-Used for greeting users appropriately based on the time of day.
-🔸 Speech Recognition
-Recognizes and processes voice input from the microphone.
-Supports both online and offline speech engines.
-🔸 Wikipedia
-Accesses and parses data from Wikipedia for answering queries.
-🔸 Web Browser
-Opens websites and displays web-based documents to the user.
-🔸 OS
-Facilitates interaction with the operating system, such as managing directories and files.
-🔸 Random
-Generates pseudo-random numbers for tasks requiring randomness.
-🔸 PyAutoGUI
-Automates mouse and keyboard operations, such as taking screenshots.
-📌 DSA Methodology
-The Jarvis assistant employs fundamental Data Structures and Algorithms (DSA) to enhance its efficiency:
+- A virtual assistant, also called an AI assistant or digital assistant, is an application program that understands natural language voice commands and completes tasks for the user. The whole concept based on how can we make our life easier or how can we automate the things by just using our voice command. When the project is being executed then first of all it greets the user as per the time. After that it just listen your command in form of voice and just that that thing according to your command.
 
-Queues
+- It is implemented in **“PYTHON Programming Language”** in which implementation is very easy. For every sort of work there is module present in python which makes the thing very easy and effective to do. It is user friendly and easy to understandable for beginner.
 
-Used for managing sequential voice commands and ensuring proper execution order.
-Hash Maps
+# 📌Moules/Libraries Used
 
-Utilized to map user commands to specific functions for quick lookups.
-Recursion
+### 🔸Pyttsx3
+- A python library that will help us to convert text to speech. In short, it is a text-to-speech library.
+- It works offline, and it is compatible with Python 2 as well as Python 3.
 
-Implemented in modules like Wikipedia searches for traversing nested data structures.
-Greedy Algorithms
+### 🔸Datetime
+- To provide current or live time to Assistant.
+- Used for greeting user according to time.
 
-Used in optimization tasks, such as choosing the best results from multiple search options.
-String Manipulation
+### 🔸Speech Recognition
+- Library for performing speech recognition, with support for several engines and APIs, online and offline.
+- Used for taking input from microphone as a source to perform tasks.
 
-Applied extensively for processing and interpreting voice commands.
-📌 Flow of Data
-Step 1: Input
-The user provides a voice command via a microphone.
-The Speech Recognition library converts the voice command into text.
-Step 2: Processing
-The text input is matched against predefined commands using hash maps.
-The appropriate module or library is triggered based on the command (e.g., Wikipedia, Web Browser).
-Step 3: Execution
-The command is executed, and the results are processed (e.g., text-to-speech output using Pyttsx3).
-Step 4: Output
-The result is presented to the user via speech, text, or screen interaction.
-📌 Conclusion
-Jarvis successfully automates a variety of tasks, enhancing convenience and productivity for users. Its ability to recognize voice commands and execute complex workflows demonstrates the potential of AI-powered virtual assistants.
+### 🔸Wikipedia
+- Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia.
+- It helps the user to get results for a particular query or search.
 
-Future enhancements include integrating Jarvis with mobile platforms for seamless synchronization, improving noise cancellation for better speech recognition in noisy environments, and expanding its functionality to include server administration tasks like auto-deployment and backup management.
+### 🔸Web Browser
+- The web browser module provides a high-level interface to allow displaying Web-based documents to users
+- Under most circumstances, simply calling the open() function from this module will do the right thing.
 
-📌 Summary
-Jarvis is a Python-based virtual assistant designed to simplify daily tasks through voice command automation. It uses Python libraries such as Pyttsx3, Speech Recognition, and Wikipedia to perform actions like opening websites, retrieving information, and playing music. The project incorporates DSA methodologies like hash maps and recursion to ensure efficient execution.
+### 🔸OS
+- The OS module in Python provides functions for interacting with the operating system.
+- This module provides a portable way of using operating system-dependent functionality.
 
-In conclusion, Jarvis aims to evolve into a fully-fledged server assistant with mobile integration and enhanced features for broader usability.
+### 🔸Random
+- We can generate random numbers in Python by using random module.
+- These are pseudo-random number as the sequence of number generated depends on the seed.
 
+### 🔸PyAutoGui
+- Pyautogui is a library that allows you to control the mouse and keyboard to do various things.
+- In this project we use this library for taking screenshots of the screen.
 
+# 📌Features 
 
+### 👉 1. Greet the user
 
+<img src="" alt="">
+
+### 👉 2. Tell current time & date
+
+<img src="" alt="">
+
+### 👉 3. Search something on Wikipedia
+
+<img src="" alt="">
+
+### 👉 4. Open any Website
+
+<img src=" width="480"/>
+
+### 👉 5. Plays Music
+
+<img src="" alt="">
+
+### 👉 6. Can search anything on Google
+
+<img src="" width="480"/> 
+
+### 👉 7. Take important note in text file
+
+<img src="" alt="">
+
+### 👉 8. Take Screenshots and save it with custom filename
+
+<img src="" alt="">
+
+### 👉 9. Finally make Assistant offline
+
+<img src="" alt="">
+
+# 📌WHY TO USE JARVIS?
+
+1. It fulfils the own personnel desktop voice assistant.
+
+2. It has an easy to install and use interface.
+
+3. It accepts inputs even through voice or keyboard.
+
+4. It automates tedious tasks like deployment, unit testing through a single command.
+
+# 📌Advantages / Disadvantages 
+
+|  **S.No.**  |  **Advantages**  | **Disadvantages**  |
+|:-----------:|:----------------:|:------------------:|
+|  **1.**  |  Secure |  Costly  |
+|  **2.**  |  Easy to use |  Expensive equipments  |
+|  **3.**  |  Custom commands  |  Limited language support  |
+|  **4.**  |  Helpful for disabled ones  |  It cannot work in noisy environments  |
+|  **5.**  |  Can't work with variety of commands  |  Can't use for more than one person at a time  |
+
+# 📌Conclusion
+
+- Through this voice assistant, we have automated various services using a single line command. It eases most of the tasks of the user like searching the web, retrieving weather forecast details, vocabulary help and medical related queries. 
+
+- We aim to make this project a complete server assistant and make it smart enough to act as a replacement for a general server administration. The future plans include integrating Jarvis with mobile using React Native to provide a synchronized experience between the two connected devices. 
+
+- Further, in the long run, Jarvis is planned to feature auto deployment supporting elastic beanstalk, backup files, and all operations which a general Server Administrator does. The functionality would be seamless enough to replace the Server Administrator with Jarvis. 
 
 
