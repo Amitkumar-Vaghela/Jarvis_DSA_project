@@ -6,7 +6,7 @@
 
 - It is implemented in **“PYTHON Programming Language”** in which implementation is very easy. For every sort of work there is module present in python which makes the thing very easy and effective to do. It is user friendly and easy to understandable for beginner.
 
-# 📌Moules/Libraries Used
+# 📌 Software Used
 
 ### 🔸Pyttsx3
 - A python library that will help us to convert text to speech. In short, it is a text-to-speech library.
@@ -78,6 +78,31 @@
 
 <img src="" alt="">
 
+# 📌 DSA Methodology
+
+1.Queues : Used for managing sequential voice commands and ensuring proper execution order.
+2.Hash Maps : Utilized to map user commands to specific functions for quick lookups.
+Recursion : Implemented in modules like Wikipedia searches for traversing nested data 
+             structures.
+3.Greedy Algorithms : Used in optimization tasks, such as choosing the best results from 
+                      multiple search options.
+4.String Manipulation : Applied extensively for processing and interpreting voice commands.
+
+
+## 📌 Flow of Data
+## Step 1: Input
+The user provides a voice command via a microphone.
+The Speech Recognition library converts the voice command into text.
+## Step 2: Processing
+The text input is matched against predefined commands using hash maps.
+The appropriate module or library is triggered based on the command (e.g., Wikipedia, Web Browser).
+## Step 3: Execution
+The command is executed, and the results are processed (e.g., text-to-speech output using Pyttsx3).
+## Step 4: Output
+The result is presented to the user via speech, text, or screen interaction.
+
+
+
 # 📌WHY TO USE JARVIS?
 
 1. It fulfils the own personnel desktop voice assistant.
@@ -104,6 +129,18 @@
 
 - We aim to make this project a complete server assistant and make it smart enough to act as a replacement for a general server administration. The future plans include integrating Jarvis with mobile using React Native to provide a synchronized experience between the two connected devices. 
 
-- Further, in the long run, Jarvis is planned to feature auto deployment supporting elastic beanstalk, backup files, and all operations which a general Server Administrator does. The functionality would be seamless enough to replace the Server Administrator with Jarvis. 
+- Further, in the long run, Jarvis is planned to feature auto deployment supporting elastic beanstalk, backup files, and all operations which a general Server Administrator does. The functionality would be seamless enough to replace the Server Administrator with Jarvis.
+
+# 📌 Summary
+Jarvis is a Python-based virtual assistant designed to simplify daily tasks through voice command automation. It uses Python libraries such as Pyttsx3, Speech Recognition, and Wikipedia to perform actions like opening websites, retrieving information, and playing music. The project incorporates DSA methodologies like hash maps and recursion to ensure efficient execution.
+
+In conclusion, Jarvis aims to evolve into a fully-fledged server assistant with mobile integration and enhanced features for broader usability.
+
+
+
+
+
+
+  
 
 
