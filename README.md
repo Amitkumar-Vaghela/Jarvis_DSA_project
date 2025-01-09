@@ -40,44 +40,6 @@
 - Pyautogui is a library that allows you to control the mouse and keyboard to do various things.
 - In this project we use this library for taking screenshots of the screen.
 
-# 📌Features 
-
-### 👉 1. Greet the user
-
-<img src="" alt="">
-
-### 👉 2. Tell current time & date
-
-<img src="" alt="">
-
-### 👉 3. Search something on Wikipedia
-
-<img src="" alt="">
-
-### 👉 4. Open any Website
-
-<img src=" width="480"/>
-
-### 👉 5. Plays Music
-
-<img src="" alt="">
-
-### 👉 6. Can search anything on Google
-
-<img src="" width="480"/> 
-
-### 👉 7. Take important note in text file
-
-<img src="" alt="">
-
-### 👉 8. Take Screenshots and save it with custom filename
-
-<img src="" alt="">
-
-### 👉 9. Finally make Assistant offline
-
-<img src="" alt="">
-
 # 📌 DSA Methodology
 
 1.Queues : Used for managing sequential voice commands and ensuring proper execution order.
