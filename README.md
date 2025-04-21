@@ -103,16 +103,6 @@ The result is presented to the user via speech, text, or screen interaction.
 
 4. It automates tedious tasks like deployment, unit testing through a single command.
 
-# 📌Advantages / Disadvantages 
-
-|  **S.No.**  |  **Advantages**  | **Disadvantages**  |
-|:-----------:|:----------------:|:------------------:|
-|  **1.**  |  Secure |  Costly  |
-|  **2.**  |  Easy to use |  Expensive equipments  |
-|  **3.**  |  Custom commands  |  Limited language support  |
-|  **4.**  |  Helpful for disabled ones  |  It cannot work in noisy environments  |
-|  **5.**  |  Can't work with variety of commands  |  Can't use for more than one person at a time  |
-
 # 📌Conclusion
 
 - Through this voice assistant, we have automated various services using a single line command. It eases most of the tasks of the user like searching the web, retrieving weather forecast details, vocabulary help and medical related queries. 
@@ -120,9 +110,6 @@ The result is presented to the user via speech, text, or screen interaction.
 - We aim to make this project a complete server assistant and make it smart enough to act as a replacement for a general server administration. The future plans include integrating Jarvis with mobile using React Native to provide a synchronized experience between the two connected devices. 
 
 - Further, in the long run, Jarvis is planned to feature auto deployment supporting elastic beanstalk, backup files, and all operations which a general Server Administrator does. The functionality would be seamless enough to replace the Server Administrator with Jarvis.
-
-# 📌 Summary
-Jarvis is a Python-based virtual assistant designed to simplify daily tasks through voice command automation. It uses Python libraries such as Pyttsx3, Speech Recognition, and Wikipedia to perform actions like opening websites, retrieving information, and playing music. The project incorporates DSA methodologies like hash maps and recursion to ensure efficient execution.
 
 In conclusion, Jarvis aims to evolve into a fully-fledged server assistant with mobile integration and enhanced features for broader usability.
 
